@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jtlshopplugin>
+    <Name>LS Plugin</Name>
+    <Description>Custom Search</Description>
+    <Author>List and sell</Author>
+    <URL>https://listandsell.de</URL>
+    <XMLVersion>100</XMLVersion>
+    <ShopVersion>5.2.2</ShopVersion>
+    <Icon>preview.png</Icon>
+    <PluginID>ls_plugin</PluginID>
+    <CreateDate>2023-06-07</CreateDate>
+    <Version>1.0.0</Version>
+    <Install>
+        <Portlets>
+			<!-- <Portlet>
+                <Title>Categories</Title>
+                <Class>Categories</Class>
+                <Group>content</Group> 
+                <Active>1</Active>
+            </Portlet> --> 
+            <Portlet>
+                <Title>Lsgarantieform</Title>
+                <Class>Lsgarantieform</Class>
+                <Group>content</Group> 
+                <Active>1</Active> 
+            </Portlet>
+                 <Portlet>
+                <Title>CustomCountdown</Title>
+                <Class>CustomCountdown</Class>
+                <Group>content</Group> 
+                <Active>1</Active> 
+            </Portlet>
+                <Portlet>
+                <Title>LsBlogs</Title>
+                <Class>LsBlogs</Class>
+                <Group>content</Group> 
+                <Active>1</Active> 
+            </Portlet>
+            <Portlet>
+                <Title>LsProductsStream</Title>
+                <Class>LsProductsStream</Class>
+                <Group>content</Group> 
+                <Active>1</Active> 
+            </Portlet>
+            <Portlet>
+                <Title>LsSlider</Title>
+                <Class>LsSlider</Class> 
+                <Group>content</Group> 
+                <Active>1</Active>  
+            </Portlet>
+              <Portlet>
+                <Title>Lscustomslider</Title>
+                <Class>Lscustomslider</Class> 
+                <Group>content</Group> 
+                <Active>1</Active>  
+            </Portlet>
+              <Portlet>
+                <Title>Categories</Title>
+                <Class>Categories</Class> 
+                <Group>content</Group> 
+                <Active>1</Active>  
+            </Portlet>
+        </Portlets> 
+
+        <CSS>
+            <file>
+                <name>search1.css</name>
+                <priority>4</priority>
+            </file>
+            <file>
+                <name>lsstyle.css</name>   
+                <priority>4</priority>
+            </file>
+        </CSS>
+        <JS>
+            <file>
+                <name>ajax-call.js</name>
+                <priority>8</priority>
+                <position>body</position>
+            </file>
+            <file>
+                <name>main.js</name> 
+                <priority>8</priority>
+                <position>body</position>
+            </file>
+            <file>
+                <name>lsslider.js</name>    
+                <priority>8</priority>
+                <position>body</position> 
+            </file>
+        </JS>
+    </Install>
+</jtlshopplugin>
